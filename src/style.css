@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Common CSS start */
+.body {
+  position: relative;
+  overflow: hidden !important;
+  /* background-color: #f8f8f8; */
+  font-size: large;
+  max-height: 100vh;
+  height: calc(100vh - 65px);
+}
+.dash_title {
+  color: #01050a;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: 15px;
+  left: 45px;
+}
+
+/* table css  */
+th {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  @apply p-4;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.table-responsive {
+  @apply sm:overflow-hidden overflow-scroll;
+  max-height: 35vh;
+  overflow-y: scroll;
+  border: 1px solid #6c757d;
+}
+
+.rs-table-cell-bordered {
+  border-right: 1px solid #e20038 !important;
+}
+
+td {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  border: 1px solid #6c757d;
+  @apply p-4;
+  line-height: normal;
+}
+
+.table {
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px !important;
+}
+/* Common CSS end  */
+
+/* Input form component start  */
+.form_input {
+  display: flex;
+  width: 450px;
+  padding: 25px;
+  align-items: center;
+}
+.form_input_sm {
+  display: flex;
+  width: 300px;
+  padding: 25px;
+  align-items: center;
+}
+
+/* Input form component end  */
+
+/* Button component start  */
+
+._btn {
+  border-radius: 10px !important;
+  border: 1px solid #fff !important;
+  background: #e20038 !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-family: Poppins !important;
+  font-size: 19px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  letter-spacing: 2.47px !important;
+  text-transform: uppercase !important;
+  margin-top: 25px;
+  width: 184.408px;
+  height: 61.72px;
+  flex-shrink: 0;
+}
+/* Button component end  */
+
+/* Login page start  */
+
+.login_card {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  background: rgba(13, 4, 4, 0.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 650px;
+  height: 400px;
+  padding: 48px;
+  top: 130px;
+  left: 135px;
+  /* padding: 30px 0 0 72px; */
+  position: relative;
+}
+.login_body {
+  background-image: url(../public/images/login_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.login_text {
+  color: #edf6ff;
+  /* text-align: center; */
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  padding: 50px 378px 0 0;
+}
+
+.login_input {
+  width: 564px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #858585;
+  background: #fff;
+  position: relative;
+}
+
+.input_logo {
+  position: absolute;
+}
+.login_btn {
+  width: 564px;
+}
+
+.logo {
+  position: absolute;
+  left: 225px;
+  margin-top: -135px;
+}
+
+.logo_sm {
+  position: absolute;
+  right: 21%;
+  top: 60%;
+  transform: rotate(-13.557deg);
+}
+
+/* Login page end  */
+
+/* Sidebar start  */
+
+.bg_sidebar {
+  background-color: #32010d !important;
+  border-radius: 0;
+  transition: all .7s;
+  @apply shadow-none
+}
+.side_nav:active {
+  background-color: #e20038 !important;
+}
+.dd_menu:hover {
+  background-color: #e20038 !important;
+  color: #fff !important;
+  --tw-text-opacity: 0 !important;
+  --tw-ring-offset-color: #e20038 !important;
+}
+.dd_menu:active {
+  background-color: #e20038 !important;
+  color: #fff !important;
+  --tw-text-opacity: 0 !important;
+}
+
+.transition-colors {
+  transition-property: none;
+}
+
+/* Sidebar end  */
+
+/* Navbar start  */
+
+.nav_search {
+  width: 188px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(243, 135, 135, 0.96);
+  background: rgba(163, 18, 18, 0);
+  margin-left: 50px;
+  margin-top: 8px;
+}
+.nav_ser {
+  background-color: #32010d;
+  color: #fff;
+}
+.top_nav {
+  background-color: #b8163e;
+  border-radius: 0;
+  border: none;
+}
+.nav_drop:hover {
+  background-color: #32010d;
+  color: #fff;
+}
+.nav_dd {
+  border-right: 1px solid #fff;
+}
+.nav_drop {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* Navbar end  */
+
+/* Add bar start  */
+.addbar_card {
+  display: flex;
+  width: 1065px;
+  height: 468px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin: auto;
+  top: 100px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Add bar end  */
+
+/* Beer Dashboard start  */
+
+.table_width {
+  width: 1065px;
+}
+
+.beer_dash_card {
+  display: flex;
+  width: 1065px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin: auto;
+  top: 100px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.table_heading {
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.table_pagination {
+  width: 1065px;
+}
+
+.head_title {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+}
+.date_picker {
+  width: 175px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+/* Beer Dashboard end  */
+
+/* Table start  */
+.table_width_sm {
+  width: 1030px;
+}
+
+.table_row {
+  border-radius: 15px;
+}
+.brand_logo {
+  /* background-color:#269BC0; */
+  border: 1px solid #232222;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.dashboard_input {
+  display: flex;
+  width: 369.267px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.datepicker {
+  width: 175px !important;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+/* Table end  */

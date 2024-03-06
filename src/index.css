@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-md {
+  box-shadow: none;
+}
+
+.rs-table-cell-bordered {
+  border-right: 1px solid #e20038 !important;
+}
+
+.rsuite-header-cell {
+  background: #e20038;
+  color: #fff;
+}
+
+div[role="columnheader"] {
+  background-color: #e20038 !important;
+  color: #fff !important;
+}
+.rs-table-column-group-header-content {
+  color: #fff !important;
+}
